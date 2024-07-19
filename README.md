@@ -61,6 +61,35 @@ Steps to install and use:
 *  Correlation graph created on data post-PCA processing and reduced dataframe saved
 
 ### Modeling
+* From the PCA.csv file, a new dataframe is created
+* Features are separated from y
+* The dataset was split to training and testing with 20% set for the testing size and a random state of 42
+* The RandomForestClassifier is initiated with 100 estimators and a random state of 42
+* RandomForestClassifier is applied to the training data
+* Predict was applied to the data to calculate and print a testing, training and model accuracy scores
+  - Testing Score: 50%
+  - Training Score: 99.9%
+  - Model Accuracy Score: 98.8%
+* A classification report was then printed for further evaluation
+  
+  >                   precision    recall  f1-score   support
+  >
+  >                0       0.99      1.00      0.99     39537
+  >                1       0.00      0.00      0.00       463
+  >
+  >         accuracy                           0.99     40000
+  >        macro avg       0.49      0.50      0.50     40000
+  >     weighted avg       0.98      0.99      0.98     40000
+
+* Synthetic Minority Over-sampling TEchnique (SMOTE) to balance to dataset
+* This data was resampled to balance Fraud and Non-Fraud transactions
+* The balanced data was split to training and testing with 20% set for the testing size and a random state of 42
+* RandomForestClassifier was trained on the resampled data
+* Predict was applied to the testing data to calculate and print a testing accuracy score
+* Predict was applied to the training data to calculate and print a training accuracy score
+* A classification report was then printed for further evaluation
+* Lastly, the data was split into training and testing data without SMOTE
+  - This achieved a Testing Score of 99.7%
 
 
 ### Credit
