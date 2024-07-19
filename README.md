@@ -2,13 +2,11 @@
 
 ## Bank Account Fraud Analysis
 
-### Goal
-Create a ML model that can test data to determine fraud in credit card applications with a high level of accuracy.
-
 ### Description
 In attempting to determine fraud in credit card applications, the Bank Account Fraud (BAF)'s main dataset allowed us to perform data analysis, data preprocessing and fraud detection ML modeling.
 
-
+### Goal
+Create a ML model that can test data to determine fraud in credit card applications with a high level of accuracy.
 
 #### Dataset
 [Bank Account Fraud Dataset Suite (NeurlPS)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022?select=Base.csv)
