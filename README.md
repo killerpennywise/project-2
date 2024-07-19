@@ -36,13 +36,15 @@ Steps to install and use:
 ### Preprocessing
 * Base dataframe created to assess data file including null values, data types and column names
 * Processed value counts on y to determine data distribution for bias
-* Objects were separated into another dataframe for OneHotEncoding including:
+* 'Objects' were separated into another dataframe for OneHotEncoding including:
   - payment_type
   - employment_status
   - housing_status
   - source
   - device_os
-*  
+*  Dataframes were merged into a new dataframe with the encoded data
+*  y was dropped
+*  Data was scaled utilizing StandardScaler
 
 
 ### Credit
