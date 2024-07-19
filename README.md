@@ -3,7 +3,7 @@
 ## Bank Account Fraud Analysis
 
 ### Description
-Determining fraud in credit card applications, the Bank Account Fraud (BAF)'s main dataset allowed us to perform data analysis, data preprocessing and fraud detection ML modeling.
+In attempting to determine fraud in credit card applications, the Bank Account Fraud (BAF)'s main dataset allowed us to perform data analysis, data preprocessing and fraud detection ML modeling.
 
 #### Dataset
 [Bank Account Fraud Dataset Suite (NeurlPS)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022?select=Base.csv)
@@ -30,7 +30,8 @@ Steps to install:
 * Open local downloads folder and right click project-1-main.zip file.
 * Click and extract all to desired location.
 * Open newly extracted project-2-main folder.
-* Select desired notebook to run.
+* Run the data_prep file.
+* Next, run the model file.
 
 ### Preprocessing
 
