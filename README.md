@@ -12,6 +12,12 @@ Create a ML model that can test data to determine fraud in credit card applicati
 [Bank Account Fraud Dataset Suite (NeurlPS)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022?select=Base.csv)
 *The dataset was resampled to 200,000 rows due to github file size limitations.*
 
+### Required Installations
+> - pip install pandas
+> - pip install scikit-learn
+> - pip install matplotlib
+> - pip install imbalanced-learn
+  
 ### Dependencies
 * import pandas as pd
 * from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -44,8 +50,11 @@ Steps to install and use:
   - device_os
 *  Dataframes were merged into a new dataframe with the encoded data
 *  y was dropped
-*  Data was scaled utilizing StandardScaler
-
+*  Data was normalized utilizing StandardScaler
+*  Data was fit to a new dataframe created
+*  Correlation graph created on data before PCA was applied
+*  PCA model applied for feature selection and includes an explained variance ratio array
+*  Correlation graph created on data post-PCA processing and reduced dataframe saved
 
 ### Credit
 #### - Angelina Prema
