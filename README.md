@@ -23,18 +23,19 @@ Create a ML model that can test data to determine fraud in credit card applicati
 * import matplotlib as plt
 
 ### Installation
-Steps to install:
-* Open github [repository](https://github.com/killerpennywise/project-2/tree/main).
-* Click green code button.
-* Scroll down to download zip file.
-* Open local downloads folder and right click project-1-main.zip file.
-* Click and extract all to desired location.
-* Open newly extracted project-2-main folder.
-* Run the data_prep file.
-* Next, run the model file.
+Steps to install and use:
+* Open github [repository](https://github.com/killerpennywise/project-2/tree/main)
+* Click green code button
+* Scroll down to download zip file
+* Open local downloads folder and right click project-1-main.zip file
+* Click and extract all to desired location
+* Open newly extracted project-2-main folder
+* Run the data_prep file
+* Next, run the model file
 
 ### Preprocessing
-
+* Base dataframe created to assess data file including null values, data types and column names
+* Process value counts on y to determine data distribution for bias
 
 
 ### Credit
@@ -43,7 +44,7 @@ Steps to install:
 #### - Jack Hoffmann
 #### - Nicholas Merz
 
-### License
+### Dataset License
 CC BY-NC-SA
    *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International*
 
