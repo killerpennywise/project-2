@@ -12,7 +12,7 @@ Create a ML model that can test data to determine fraud in credit card applicati
 [Bank Account Fraud Dataset Suite (NeurlPS)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022?select=Base.csv)
 *The dataset was resampled to 200,000 rows due to github file size limitations.*
 
-### Required Installations
+### Required Git Installations
 > - pip install pandas
 > - pip install scikit-learn
 > - pip install matplotlib
@@ -27,6 +27,10 @@ Create a ML model that can test data to determine fraud in credit card applicati
 * from sklearn.decomposition import PCA
 * import seaborn as sns
 * import matplotlib as plt
+* from sklearn.model_selection import train_test_split
+* from sklearn.metrics import balanced_accuracy_score, accuracy_score, classification_report
+* from imblearn.over_sampling import SMOTE
+* from sklearn.ensemble import RandomForestClassifier
 
 ### Installation
 Steps to install and use:
@@ -56,11 +60,14 @@ Steps to install and use:
 *  PCA model applied for feature selection and includes an explained variance ratio array
 *  Correlation graph created on data post-PCA processing and reduced dataframe saved
 
+### Modeling
+
+
 ### Credit
-#### - Angelina Prema
-#### - Mark Moore
-#### - Jack Hoffmann
-#### - Nicholas Merz
+- Jack Hoffmann
+- Nicholas Merz
+- Mark Moore
+- Angelina Prema
 
 ### Dataset License
 CC BY-NC-SA
