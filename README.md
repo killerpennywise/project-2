@@ -45,7 +45,7 @@ Steps to install and use:
 
 ### Preprocessing
 * Base dataframe created to assess data file including null values, data types and column names
-* Processed value counts on y to determine data distribution for bias
+* Processed value counts on ```y``` to determine data distribution for bias
 * 'Objects' were separated into another dataframe for OneHotEncoding including:
   - payment_type
   - employment_status
@@ -53,7 +53,7 @@ Steps to install and use:
   - source
   - device_os
 *  Dataframes were merged into a new dataframe with the encoded data
-*  y was dropped
+*  ```y``` was dropped
 *  Data was normalized utilizing StandardScaler
 *  Data was fit to a new dataframe created
 *  Correlation graph created on data before PCA was applied
@@ -62,7 +62,7 @@ Steps to install and use:
 
 ### Modeling
 * From the PCA.csv file, a new dataframe is created
-* Features are separated from y
+* Features are separated from ```y```
 * The dataset was split to training and testing with 20% set for the testing size and a random state of 42
 * The RandomForestClassifier is initiated with 100 estimators and a random state of 42
 * RandomForestClassifier is applied to the training data
