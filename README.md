@@ -33,7 +33,7 @@ Steps to install and use:
 * Open github [repository](https://github.com/killerpennywise/project-2/tree/main)
 * Click green code button
 * Scroll down to download zip file
-* Open local downloads folder and right click project-1-main.zip file
+* Open local downloads folder and right click project-2-main.zip file
 * Click and extract all to desired location
 * Open newly extracted project-2-main folder
 * Run the data_prep file
