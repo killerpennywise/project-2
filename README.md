@@ -35,7 +35,14 @@ Steps to install and use:
 
 ### Preprocessing
 * Base dataframe created to assess data file including null values, data types and column names
-* Process value counts on y to determine data distribution for bias
+* Processed value counts on y to determine data distribution for bias
+* Objects were separated into another dataframe for OneHotEncoding including:
+  - payment_type
+  - employment_status
+  - housing_status
+  - source
+  - device_os
+*  
 
 
 ### Credit
