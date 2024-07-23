@@ -95,6 +95,7 @@ Steps to install and use:
   >  
   >                0       1.00      0.98      0.99     39627
   >                1       0.98      1.00      0.99     39481
+  >
   >         accuracy                           0.99     79108
   >        macro avg       0.99      0.99      0.99     79108
   >     weighted avg       0.99      0.99      0.99     79108
